@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#000814</color>
+    <color name="surface">#001D3D</color>
+    <color name="primary">#00E5FF</color>
+    <color name="accent">#00BCD4</color>
+    <color name="status_idle">#9E9E9E</color>
+    <color name="status_listening">#4CAF50</color>
+    <color name="status_processing">#FF9800</color>
+    <color name="status_speaking">#2196F3</color>
+</resources>
