@@ -15,6 +15,10 @@ import androidx.core.content.ContextCompat
 import com.google.android.material.button.MaterialButton
 import com.maira.assistant.core.AssistantState
 import com.maira.assistant.service.MairaForegroundService
+import com.maira.assistant.ui.SettingsActivity
+import com.maira.assistant.ui.HistoryActivity
+import com.maira.assistant.ui.KnowledgeActivity
+import android.widget.ImageButton
 import android.widget.TextView
 import android.view.View
 
@@ -66,6 +70,16 @@ class MainActivity : AppCompatActivity() {
         micIndicator = findViewById(R.id.micIndicator)
         btnStart = findViewById(R.id.btnStart)
         btnStop = findViewById(R.id.btnStop)
+        
+        findViewById<ImageButton>(R.id.btnSettings).setOnClickListener {
+            startActivity(Intent(this, SettingsActivity::class.java))
+        }
+        findViewById<ImageButton>(R.id.btnHistory).setOnClickListener {
+            startActivity(Intent(this, HistoryActivity::class.java))
+        }
+        findViewById<ImageButton>(R.id.btnKnowledge).setOnClickListener {
+            startActivity(Intent(this, KnowledgeActivity::class.java))
+        }
     }
     
     private fun setupButtons() {

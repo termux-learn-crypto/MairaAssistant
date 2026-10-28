@@ -92,3 +92,16 @@ dependencies {
     
     // WorkManager
     implementation("androidx.work:work-runtime-ktx:2.9.0")
+
+// DataStore for settings
+implementation("androidx.datastore:datastore-preferences:1.1.1")
+
+// OkHttp for internet search & smart home
+implementation("com.squareup.okhttp3:okhttp:4.12.0")
+implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+
+// Lottie for animations (optional)
+implementation("com.airbnb.android:lottie:6.4.1")
+
+// SwipeRefresh
+implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
